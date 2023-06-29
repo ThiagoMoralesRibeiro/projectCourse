@@ -236,6 +236,21 @@
 .ovisible-y {overflow-y: visible;}
 .ohidden-y {overflow-y: hidden;}
 
+/*--/*--LINE-HEIGHT--*/
+.lh1 {line-height: 15px;}
+.lh2{line-height: 20px;}
+.lh3{line-height: 25px;}
+.lh4{line-height: 35px;}
+.lh5{line-height: 45px;}
+/*--/*--FONT-SIZES--*/
+.fs-s{font-size: 1.05rem;}
+.fs-m{font-size: 1.25rem;}
+.fs-l{font-size: 1.75rem;}
+.fs-xl{font-size: 2.0rem;}
+.fs-xxl{font-size: 2.5rem;}
+
+
+
 /*--DISPOSITIVOS_LOW_SMALL--*/
 @media only screen and (min-width: 0px) {
     /*--/*--ITENS--*/
@@ -366,7 +381,16 @@
     .oauto-y-lsm {overflow-y: auto;}
     .ovisible-y-lsm {overflow-y: visible;}
     .ohidden-y-lsm {overflow-y: hidden;}
+
+    /*--/*--FONT-SIZES--*/
+    .fs-s-lsm{font-size: 0.75rem;}
+    .fs-m-lsm{font-size: 1.0rem;}
+    .fs-l-lsm{font-size: 1.25rem;}
+    .fs-xl-lsm{font-size: 1.5rem;}
+    .fs-xxl-lsm{font-size: 1.75rem;}
 }
+
+
 
 /*--DISPOSITIVOS_HIGH_SMALL--*/
 @media only screen and (min-width: 300px) {
@@ -500,6 +524,8 @@
     .ohidden-y-hsm {overflow-y: hidden;}
 }
 
+
+
 /*--DISPOSITIVOS_LOW_MEDIUM--*/
 @media only screen and (min-width: 700px) {
     /*--/*--ITENS--*/
@@ -630,6 +656,13 @@
     .oauto-y-lmd {overflow-y: auto;}
     .ovisible-y-lmd {overflow-y: visible;}
     .ohidden-y-lmd {overflow-y: hidden;}
+
+    /*--/*--FONT-SIZES--*/
+    .fs-s-lmd{font-size: 1.05rem;}
+    .fs-m-lmd{font-size: 1.25rem;}
+    .fs-l-lmd{font-size: 1.75rem;}
+    .fs-xl-lmd{font-size: 2.0rem;}
+    .fs-xxl-lmd{font-size: 2.25rem;}
 }
 
 /*--DISPOSITIVOS_HIGH_MEDIUM--*/
