@@ -22,13 +22,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.market-car-img{
-    width:50px;
-    border-radius: 25%;
-    padding: 5px;
-    background-image: linear-gradient(to right, var(--primary-100), var(--primary-200), var(--primary-300)) ;
-}
-
 .primary-200{
     color: var(--primary-200);
 }
@@ -84,22 +77,11 @@ html{
     font-weight: 500;
 }
 
-.banner{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../img/ban01.avif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    text-align: left;
-    color: #fff;
-    z-index: -1;
-    
+.market-car-img{
+    width:50px;
+    border-radius: 25%;
+    padding: 5px;
+    background-image: linear-gradient(to right, var(--primary-100), var(--primary-200), var(--primary-300)) ;
 }
 
 .divBusca{
@@ -119,6 +101,12 @@ html{
     border: none;
     height: 50px;
     text-align: center;
+}
+
+.icon-x{
+    background-color: transparent;
+    border: none;
+    width: 30px;
 }
 
 .underline{
@@ -185,8 +173,35 @@ img {
     top {margin-left: -100vw};
 }
 
+/*BANNER*/
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../img/ban01.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: left;
+    color: #fff;
+    z-index: -1;
+    
+}
+
+
 
 /*ABA DE CURSOS RECOMENDADOS*/
+
+.card-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 .card-slider-container {
     display: flex;
@@ -278,6 +293,39 @@ img {
     border-radius: 50%;
     margin: 10px;
 }
+
+.card-slider-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    z-index: 0;
+}
+  
+.card-slider-control {
+    border: none;
+    padding: 0 10px;
+    
+    cursor: pointer;
+}
+
+
+.arrow-left{
+    transform: rotate(180deg);
+}
+
+.prev, .next{
+    border: none;
+    background: transparent;
+    width: 80px;
+}
+
+
+
 
 /* ABA DE CARDS DE CURSOS */
 
