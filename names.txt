@@ -5,6 +5,7 @@ carrousel slides
 Do a loader
 readme.so
 skeleton.css
+fazer um password reveal
 
 <div class="carousel">
                 <div class="card">
